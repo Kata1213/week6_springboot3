@@ -26,5 +26,7 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
+	// https://mvnrepository.com/artifact/org.springframework/org.springframework.web
+	compile group: 'org.springframework', name: 'org.springframework.web', version: '3.2.2.RELEASE'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
